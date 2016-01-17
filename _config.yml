@@ -1,4 +1,4 @@
-layout_spectrum: 0.8679167260415852
+name: Natural Life Clinic
 opengraph:
   image: null
   type: null
@@ -9,24 +9,24 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
-  saturation: 0.6971939241047949
-  lightness: 0.3653868671972305
+  saturation: 1
   brandStrength: 1
+  lightness: 0.3735245
   brandColors:
     - '#FFFFFF'
     - '#017F3B'
     - '#A6CD38'
     - '#96C7AA'
     - '#D8E9AD'
-  rhythmicContrast: 0.842523256316781
+  rhythmicContrast: 0.9595279
 typography_spectrum: 0.336658142041415
 cta:
   bucket: null
@@ -37,4 +37,4 @@ analytics:
   google: null
   facebook: null
 favicon: null
-name: Natural Life Clinic
+layout_spectrum: 0.8195615
