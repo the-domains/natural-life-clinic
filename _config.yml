@@ -1,7 +1,19 @@
 name: Natural Life Clinic
 favicon: null
-layout_spectrum: 0.8679167260415852
+layout_spectrum: 0.8195615
 typography_spectrum: 0.336658142041415
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+    permalink:
+      path: '/:title/'
 cta:
   domain: null
   bucket: null
@@ -16,13 +28,13 @@ opengraph:
   appId: null
 color:
   brandColors:
-    - '#ADD7F6'
-    - '#87BFFF'
-    - '#3F8EFC'
-    - '#2667FF'
-    - '#3B28CC'
-  brandStrength: 0.9326516818255186
-  lightness: 0.36538686719723046
-  saturation: 0.6971939241047949
-  rhythmicContrast: 0.842523256316781
+    - '#ffffff'
+    - '#b2dd11'
+    - '#007a09'
+    - '#a3cfa7'
+    - '#4ba04f'
+  brandStrength: 1
+  lightness: 0.3735245
+  saturation: 1
+  rhythmicContrast: 0.9595279
 purpose: []
